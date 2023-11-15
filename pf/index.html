@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varna-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Port<span class="red">folio</span></div>
+            <div class="right">
+                <ul id="sidemenu">
+                    <li><a href="#glowing-container">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </div>
+    
+        </nav>
+    </header>
+    <main>
+        <section class="glowing-container">
+            <section class="first">
+                <div class="leftSection">
+                    Hello! My name is <span class="color">Varna</span>
+                    <div class="web">I'm a passionate Web Developer</div>
+                    <span id="element"></span>
+                    
+                </div>
+                
+                <div class="rightSection">
+                    <img src="image/ai.png" alt="">
+                </div>
+            </section>
+        
+        
+            <div class="glowing">
+                <span style="--i:1;"></span>
+                <span style="--i:2;"></span>
+                <span style="--i:3;"></span>
+            </div>
+            <div class="glowing">
+            
+            <span style="--i:1;"></span>
+            
+            <span style="--i:2;"></span>
+            
+            <span style="--i:3;"></span>
+            
+            </div>
+            
+            <div class="glowing">
+            
+            <span style="--i:1;"></span>
+            
+            <span style="--i:2;"></span>
+            
+            <span style="--i:3;"></span>
+            
+            </div>
+            
+            <div class="glowing">
+            
+            <span style="--i:1;"></span>
+            
+            <span style="--i:2;"></span>
+            
+            <span style="--i:3;"></span>
+            
+        </section>
+<hr>
+        <section class="Second">
+            <span class="g">My</span>
+            <h1>Internships</h1>
+            <div class="box">
+                <div class="Vertical">
+                    <img class="image-top" src="image/1e0078f8266738d005b5fc7d00f9a66e.png" alt="">
+                    <div class="verticle-title">
+                        Web Development 
+
+
+                    </div>
+                    <div class="verticle-desc">
+                        from CodersCave
+                    </div>
+                
+                </div>
+                
+                <div class="Vertical">
+                    <img class="image-top" src="image/ml.png" alt="">
+                    <div class="verticle-title">
+                        Machine Learning
+
+
+                    </div>
+                    <div class="verticle-desc">
+                        from Internshala
+                    </div>
+                
+                </div>
+                
+                
+            </div>
+            
+        </section>
+        
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col1">
+                        <img src="image/icon-developer-11.png" alt="">
+                    </div>
+                    <div class="about-col2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am currently pursuing a degree in Computer Science Engineering at St Joseph Engineering College, with a keen interest in web development, web design, and machine learning. My focus includes mastering fundamental computer science concepts and technologies such as HTML, CSS, JavaScript, and relevant frameworks. Additionally, I am exploring server-side development with technologies like Node.js and frameworks like Django. Simultaneously, I am delving into advanced machine learning concepts and frameworks, such as TensorFlow and PyTorch, to broaden my skill set in these interconnected fields.</p>
+                        <div class="titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Coding skills</p>
+                            <p class="tab-links" onclick="opentab('edu')"> Education </p>
+                                
+                        
+            
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>HTML/CSS</span></li>
+                                <li><span>Java</span></li>
+                                <li><span>Python</span></li>
+                                <li><span>JavaScript</span></li>
+                                    
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="edu">
+                            <ul>
+                                <li><span>College</span><br>Computer Science Engineering from St Joseph Engineering College Manglore</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            </div>
+        
+        <section class="Second">
+            <div id="project">
+                <div class="container">
+                    <h1 class="sub-title">Projects</h1>
+                    <div class="work-list">
+                        <div class="work">
+                            <img src="image/Netflix-Logo-PNG-Transparent-Image.png" >
+                            <div class="layer">
+                                <h3>Netflix clone Website</h3>
+                                <p>The website contains landing page where you can login through your 
+                                    gmail explore latest movies.</p>
+                                <a href="#"><i class="fa-regular fa-link" style="color: #c9621d;"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="image/png-coding-5.png" >
+                            <div class="layer">
+                            <h3>Online-Code editor</h3>
+                        
+                                <p>You can login through your mail id and explore latest movies.</p>
+                                <a href="#"><i class="fa-regular fa-link" style="color: #c9621d;"></i></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="Second">
+            <span class="g"></span>
+            <h1 class="sub-title">Contact me</h1>
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <p><i class="fa-solid fa-share-nodes"></i> varnakm402@gmail.com</p>
+                            <p><i class="fa-solid fa-phone"></i>8310429895</p>
+                            <div class="social-icons">
+                                
+                                <a href="https://www.linkedin.com/in/varna-k-m-247935240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                            <a href="" download class="btn">Download CV</a>
+                            
+                            <button class="btn" onclick="location.href='https://github.com/KMvarna'">Github</button>
+                            
+                            
+                        </div>
+                        <div class="contact-right">
+                            <form >
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="email" placeholder="Your email" required>
+                                <textarea name="Message"rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                
+                </div>    
+            </div>
+            
+        </section>
+
+    </main>
+<script>
+
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+</body>
+
+</html>
